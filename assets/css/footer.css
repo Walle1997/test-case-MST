@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    background-color: #222222;
+  }
+  
+  .footer__top {
+    border-top: 1px solid #d5c9be;
+    border-bottom: 1px solid #d5c9be;
+    padding: 40px 80px;
+  }
+  
+  .footer__top > .footer__bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer__top > .footer__bar > ul {
+    display: flex;
+  }
+  
+  .footer__top > .footer__bar > ul > li {
+    margin: 0 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .footer__bottom {
+    padding: 5% 8% 15px;
+  }
+  
+  .footer__bottom > .footer__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__bottom > .footer__content > .footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer__bottom > .footer__content > .footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__bottom > .footer__content > .footer__social > ul {
+    display: flex;
+  }
+  
+  .footer__bottom > .footer__content > .footer__social > ul > li {
+    width: 32px;
+    height: 32px;
+    margin: 0 17px;
+  }
+  
+  .footer__bottom > .footer__content > .footer__social > ul > li > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer__bottom > .footer__content > .footer__terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer__bottom > .footer__content > .footer__terms > button {
+    width: 180px;
+    height: 78px;
+    font-weight: normal;
+  }
+  
+  .footer__bottom > .footer__content > .footer__terms > p {
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .footer__content {
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+  
+    .footer__bottom > .footer__content > .footer__terms > p{
+      text-align: center;
+    }
+  
+    .footer__bottom > .footer__content > .footer__social > ul > li{
+      margin: 0 4px;
+    }
+  
+    .footer__top > .footer__bar > ul{
+      flex-direction: column;
+    }
+  
+    .footer__top > .footer__bar > ul > li{
+      margin: 25px 0;
+    }
+  }

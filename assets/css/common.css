@@ -1,5 +1,64 @@
-.white-button {
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.white-button{
     width: 100%;
     height: 96px;
+    background-color: white;
+    color: black;
     border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.white-button:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+.black-button{
+    width: 100%;
+    height: 96px;
+    background-color: #282829;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.black-button:hover{
+    background-color: #282829dc;
+}
+
+.copyright-text{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.privacy-policy-text{
+    color: #D5C9BE;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.terms-of-use-text{
+    font-size: 20px;
+    line-height: 30px;
+    color: #D5C9BE;
+}
+
+.logo-text{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
 }
